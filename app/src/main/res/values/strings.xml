@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">QR and Bar code scanner</string>
+    <string name="TextView_text">Data will be displayed here</string>
+    <string name="Scan_btn_text">Scan Code</string>
+    <string name="Browse_btn_txt">Browse</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/qrscanner_background"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/scanner_anim"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnScan"
+        android:text="@string/Scan_btn_text"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textData"
+        android:layout_marginStart="20dp"
+        android:text="@string/TextView_text"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBrowse"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:text="@string/Browse_btn_txt"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="120dp"/>
+
+
+</LinearLayout>
